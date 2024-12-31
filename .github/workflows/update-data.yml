@@ -1,0 +1,25 @@
+name: Update Data Sources
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:     # Allow manual triggers
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # Pre-built GH Action that clones the repo. into the virtual machine
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y mdbtools jq curl
+      - name: Download and convert data
+        run: |
+          bash scripts/download_access.sh
+          # bash scripts/access_to_csv.sh
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/processed/
+          git commit -m "Update data sources" || echo "No changes"
+          git push

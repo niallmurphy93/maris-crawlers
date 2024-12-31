@@ -1,0 +1,10 @@
+{
+    "sources": [
+        {
+            "name": "HELCOM MORS",
+            "url": "https://maps.helcom.fi/website/download/MORS_ENVIRONMENT.zip",
+            "type": "access",
+            "update_frequency": "daily"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+# Ignore raw data files
+data/raw/*
+!data/raw/.gitignore
+
+# System files
+.DS_Store
