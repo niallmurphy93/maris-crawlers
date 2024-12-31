@@ -1,4 +1,4 @@
-name: Update Data Sources
+name: Fetch MARIS Data Sources
 
 on:
   schedule:
@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2 # Pre-built GH Action that clones the repo. into the virtual machine
       - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y mdbtools jq curl
+        run: sudo apt-get update && sudo apt-get install -y mdbtools jq curl unzip
       - name: Download and convert data
         run: |
-          bash scripts/download_access.sh
-          # bash scripts/access_to_csv.sh
+          bash scripts/download.sh
+          bash scripts/access_to_csv.sh
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"

@@ -6,17 +6,40 @@ RAW_DIR="data/raw"
 PROCESSED_DIR="data/processed"
 
 # Process each source
-for source in $(jq -r '.sources[].name' "$CONFIG_FILE"); do
+jq -c '.sources[]' "$CONFIG_FILE" | while read -r source; do
+    name=$(echo "$source" | jq -r '.name')
+    type=$(echo "$source" | jq -r '.type')
+
+    # Only process Access databases
+    if [ "$type" != "access" ]; then
+        echo "Skipping non-Access source: $name"
+        continue
+    fi
+
     echo "Processing $source..."
     
-    # Get Access file path
-    ACCESS_FILE="$RAW_DIR/$source/*.mdb"
-    OUTPUT_DIR="$PROCESSED_DIR/$source"
+    # Look for both .mdb and .accdb files
+    ACCESS_FILE=""
+    for ext in "mdb" "accdb"; do
+        found_file=$(find "$RAW_DIR/$name" -name "*.$ext" -print -quit)
+        if [ -n "$found_file" ]; then
+            ACCESS_FILE="$found_file"
+            break
+        fi
+    done
+
+    if [ -z "$ACCESS_FILE" ]; then
+        echo "No Access database file found for $name"
+        continue
+    fi
+
+    OUTPUT_DIR="$PROCESSED_DIR/$name"
     
     # Create output directory
     mkdir -p "$OUTPUT_DIR"
     
     # Get and export tables
+    echo "Found database: $ACCESS_FILE"
     tables=$(mdb-tables "$ACCESS_FILE")
     for table in $tables; do
         echo "Exporting $table..."

@@ -16,6 +16,7 @@ download_file() {
     local url="$1"
     local output_dir="$2"
     local source_name="$3"
+    local is_zipped="$4"
     
     echo "Downloading from $url..."
     
@@ -34,6 +35,19 @@ download_file() {
             "$url" \
             -o "$output_dir/$source_name/$filename"; then
         echo "Successfully downloaded $filename"
+
+        # Handle unzipping if needed
+        if [ "$is_zipped" = "true" ]; then
+            echo "Unzipping $filename..."
+            if unzip -o "$output_dir/$source_name/$filename" -d "$output_dir/$source_name/"; then
+                echo "Successfully unzipped $filename"
+                # Remove the zip file after extraction
+                rm "$output_dir/$source_name/$filename"
+            else
+                echo "Failed to unzip $filename" >&2
+                return 1
+            fi
+        fi
     else
         echo "Failed to download $url" >&2
         return 1
@@ -52,12 +66,13 @@ jq -c '.sources[]' "$CONFIG_FILE" | while read -r source; do
     name=$(echo "$source" | jq -r '.name')
     url=$(echo "$source" | jq -r '.url')
     type=$(echo "$source" | jq -r '.type')
+    zipped=$(echo "$source" | jq -r '.zipped // false')  # Default to false if not specified
     
     echo "Processing source: $name"
     
     # Only process Access databases
     if [ "$type" = "access" ]; then
-        if download_file "$url" "$RAW_DIR" "$name"; then
+        if download_file "$url" "$RAW_DIR" "$name" "$zipped"; then
             echo "Successfully processed $name"
         else
             echo "Failed to process $name" >&2
@@ -65,7 +80,7 @@ jq -c '.sources[]' "$CONFIG_FILE" | while read -r source; do
             continue
         fi
     else
-        echo "Skipping non-Access source: $name"
+        echo "Skipping non-Access source for now: $name"
     fi
 done
 

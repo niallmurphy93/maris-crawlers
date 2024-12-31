@@ -4,6 +4,7 @@
             "name": "HELCOM MORS",
             "url": "https://maps.helcom.fi/website/download/MORS_ENVIRONMENT.zip",
             "type": "access",
+            "zipped": true,
             "update_frequency": "daily"
         }
     ]
