@@ -1,0 +1,57 @@
+DEVICE,DEVICE_NAME,COUNTRY
+"1","NIEMISTÖ CORER",
+"10","not defined",
+"11","not defined",
+"2","BOX CORER",
+"21","not defined",
+"3","not defined",
+"30","not defined",
+"4","not defined",
+"5","not defined",
+"6","not defined",
+"7","KAJAK TYPE GRAVITY CORER (ASKÖ LABORATORY)",
+"CLOR01","NIEMISTÖ CORER (diameter 46mm) 3 parallel samples with a total area of 50cm²",67
+"CLOR02","SPRUT CORER (inner diameter 86mm) 2 parallel samples -total area of 120cm²",67
+"CLOR03","NIEMISTÖ CORER (diameter 55mm) 5-6 parallel samples - total area 120-140cm²",67
+"CLOR04","NIEMISTÖ CORER (diameter 50mm) 6 parallel samples - total area 118cm²",67
+"CLOR05","NIEMISTÖ CORER (diameter 72mm) 3 parallel samples - total area 122cm²",67
+"DHIG01","big box corer (50 cm x 50 cm)",6
+"DHIG02","cheeks corer (surface sediment)",6
+"DHIG03","small box corer (15 cm x 15 cm)",6
+"DHIG04","not defined",6
+"DHIG05","not defined",6
+"DHIG06","Gemini corer (inner diamater 2 x 8 cm)",6
+"EBRS02","NIEMISTÖ CORER ( diameter 5 cm)",91
+"EBRS03","GEMAX CORER (diameter 90 mm)",91
+"ERPC01","KAJAK CORER ( diameter 10 cm)",91
+"KRIL01","Sprut CORER (inner diameter 86mm) LATVIAN SAMPLER!! DESPITE THE RUSSIAN LABORATORY CODE (LVEA01)",92
+"KRIL03","not defined",90
+"LEPA01","VAN VEEN GRAB (.32X.36m, H.205, sampling area 0.1m². 75kg)",93
+"LEPA02","VAN VEEN GRAB (.32X.36m, H.205, sampling area 0.1m², 25kg)",93
+"LVEA02","KAJAK (diameter 8.0cm)",92
+"LVEA03","KAJAK (diameter 8.2cm)",92
+"LVEA07",,92
+"NCRS01","WILLNER (diameter 6.4 cm)",77
+"NCRS02","WILLNER (diameter 7.0 cm)",77
+"NCRS03","NIEMISTÖ CORER (diameter 5.0 cm)",77
+"NCRS04","KAJAK (diameter 8.0 cm)",77
+"NCRS05","not defined",77
+"RISO01","HAPS CORER (diameter 13.6cm)",26
+"SAAS01",,96
+"SAAS02",,96
+"SAAS03",,96
+"SAAS04",,96
+"SSSI01","WILLNER (diameter 6.4 cm)",77
+"SSSI02","WILLNER (diameter 7.0 cm)",77
+"SSSI03","NIEMISTÖ CORER (diameter 5.0 cm)",77
+"SSSI04","KAJAK (diameter 8.0 cm)",77
+"SSSI05","GEMINI TWIN CORER (diamter 2 x 8.0cm)",77
+"SSSM01","WILLNER (diameter 6.4 cm)",77
+"SSSM02","WILLNER (diameter 7.0 cm)",77
+"SSSM03","NIEMISTÖ CORER (diameter 5.0 cm)",77
+"SSSM04","KAJAK (diameter 8.0 cm)",77
+"SSSM05","GEMINI TWIN CORER (diamter 2 x 8.0cm)",77
+"STUK01","AQUARIUS BOX CORER dimensions inside 18.2 x 18.3cm)",34
+"STUK02","NIEMISTÖ CORER (diameter 5.0cm)",34
+"STUK03","GEMINI TWIN CORER (diamter 1-2 x 8.0cm) sampled for a tube or as a bulk of 2 tubes",34
+"STUK04","GEMAX CORER (diameter 1-2 x 8.0/9.0cm) either smoothen sample 8.0cm or rough 9.0cm",34

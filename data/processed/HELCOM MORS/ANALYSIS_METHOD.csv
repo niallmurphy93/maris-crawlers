@@ -1,0 +1,94 @@
+METHOD,DESCRIPTION,COUNTRY
+"BFFG01","Gammaspectrometric analysis with Germanium detectors (p-type HGeLi's and HPGe's and 1 n-type HPGe), with efficiency 20-48% Energy resolution 1.8-2.3 keV at 1.33 MeV (not to in use any more)",6
+"BFFG02","Sr-90, a) Y-90 extraction method dried ash and added Y-90 + HCl, Ph adjustment and Y-90 extraction with HDEHP in n-heptane b) Modified version of classic nitric acid method (not to in use any more)",6
+"BFFG03","Pu238, Pu239241; Ashing and and drying the traces (not to in use any more)",6
+"BFFG04","Am-241 (not to in use any more)",6
+"CLOR01","137Cs and 40K activity concentrations are determined by gamma spectrometry with high purity Germanium detector with energy resolution 1.8 keV for 60Co (1332 keV) and relative efficiency of 30%.",67
+"CLOR02","Radiochemical method Radiocaesium separation from seawater samples.134+137Cs was adsorbed on AMP mat,  dissolved with NaOH and after purification precipitated as chloroplatinate (Cs2PtCl6).Counting with low background anticoincidence beta counter.",67
+"CLOR03","Radiochem. meth.-134+137Cs was measured after a radiochemical separation from dissolved in nitric and fluoric acids sediment samples - 134+137Cs were adsorbed on AMP mat and their beta activity was counted in a low-background anticoincidence beta counter",67
+"CLOR04","Radiochem. meth of Sr90. Precipation with oxalate and separation of calcium, barium, radium and ytrium couting with low background anticoincidence beta counter. 1982-1994",67
+"CLOR05","Dissolved nitric acid samples evaporated and filtered, dried and heated in muffle furnace and dissolved in HCl.- Fe carrier and NH4OH added and precipitate discarded Filtrate acidified Y carrier added stored, precipitated filtered and dried - Beta count",67
+"CLOR06","Radiochem. meth determination of radium-226.Concentration of 226Ra was determined radiochemically using emanation method (measurement of 222Rn in Lucas-type scintillation chambers) preceded by separation of radium",67
+"CLOR07","For tritium liquid scintialtion counting, combined with electrolytic enrichment of analysed water samples, double distilled, before and after electrolysis in cells. Liquid Scintillation spectrometer LKB Wallac model 1410",67
+"CLOR08","Alpha spectrometry preceded by radiochemical separation Pu was separated by ion exchange, followed by electrodeposition onto stainless steel disks. 242Pu used as an internal tracer for counting alpha activity and chemical recovery- meas. alfa spectrometry",67
+"DHIG01","direct gamma counting using HPGe-detectors; sediment and suspended matter undergo freeze-drying beforehand",6
+"DHIG02","determination of Sr-90 via Y-90: after several purification steps Y-90 is measured as yttrium oxide in a low level beta gas flow counter",6
+"DHIG03","absorption of radiocaesium on KNiFC-PAN, gamma spectrometry of KNiFC-PAN afterwards",6
+"DHIG04","determination of H-3: distillation of seawater at reduced pressure, electrolytical enrichment of H-3 followed by another distillation at reduced pressure, measurement of distilled sample aliquot in a low level scintillation counter",6
+"DHIG05","determination of H-3: distillation of seawater at room temperature and room pressure, measurement of distilled sample aliquot in a low level scintillation counter",6
+"DHIG06","determination of Pu-238, Pu-239/240 and Am-241: after several purification steps the transuranic elements are electrolytically deposited on a stainless steel disk and measured by alpha spectrometry",6
+"EBRS01","Pretreatment drying (sediment, biota samples) and ashing (biota samples)or vaporization to 1000 ml (sea water samples), measured by gamma-spectrometry using HPGe detectors / SEDIMENT, BIOTA and SEAWATER Cs137, Cs134, K40",91
+"EMHI01","not defined",91
+"EMHI02","not defined",91
+"ERPC01","Pretreatment drying (sediment, biota samples) and ashing (biota samples)or vaporization to 1000 ml (sea water samples), measured by gamma-spectrometry using HPGe detectors sediment, biota, sea water /Cs-137, Cs-134, K-40",91
+"ERPC02","Pretreatment drying, ashing. HDEHP-extraction of Y-90 and counting the Cerenkov radiation in a liguid scintillation counter Sediment / Sr-90",91
+"IMGW01","Radiochemical method. acidified samples are pre-concentrated using NH4-Pmo separation on Bio rex 40 resin and preparation of Cs Cloropaltinate for beta counter",67
+"IMGW02","Classic nitric acid method, Equipment: Llow level beta counter FHT 770T (ESM Eberline)",67
+"IMGW03","137Cs activity concentrations are determined by gamma spectrometry with high purity Germanium detector with energy resolution 1.8 keV for 60Co (1332 keV) and relative efficiency of 18%.",67
+"JORC01","Pretreatment drying and ashing (450 deg C), measured by gamma spectrometry using lead-shielded Ge detectors for biota and fish/Cs137 (detailed instructions as a file)",93
+"JORC02","Radiocaesium filtered through Cu2Fe(CN)6 impregnated cartridges, measured by gamma spectormetry using lead-shielded Ge detectors for sewawater/Cs137",93
+"JORC03","Pretreatment drying, measured by gamma spectrometry using lead-shielded Ge detectors for sediments/ Cs137, K40, Th232, Ra226",93
+"JORC04","Pretreatment ashing. Extraction of Y-90 (with 10% HDEP solution) in n-heptane toluene from dissolved ashed samples. Sr-90 measured as Y-90 by proportional low level counter for biota and fish/Sr-90 (Beta spectrometry)",93
+"JORC05","Pretreatment concentration of Sr-90 (together with Cs-137) from 20 L of water with HCl, SrCl2, FeCl3, CaCl2K4Fe(CN)6, Na2CO3, adding of stable Sr as carrier.Extraction of Y-90 as in LEPA04 for seawater/Sr-90",93
+"JORC06","Pretreatment drying, homogenising and ashing (610 deg C)  Extraction of Y-90 (with 10% HDEP solution) in n-heptane toluene from dissolved ashed samples. Sr-90 measured as Y-90 by proportional low level counter Sediments/Sr90",93
+"JORC07","Pretreatment concerning Cs-137 (together with Sr-90) from 20 L of water with HCl, SrCl2, FeCl3, CaCl2K4Fe(CN)6, Na2CO3. Drying of precipitate. Measured by gamma spectrometry using lead-shielded Ge-detectors for seawater/Cs137",93
+"KRIL01","Pretreatment drying (105 deg C), milling, measured by gamma spectrometry using lead-shielded Ge detectors; sediment, biota / Mn54, Co57, Co58, Co60, Zn65, Nb95, Ru103, Ru106, Ag110m, Sb125, Cs134, Cs137, Ba140, Ce141, Ce144, Ra226, Ra228, Th232",90
+"KRIL02","Precipitation of radioCs on K4(Fe(CN)6)  together  with precipitation of radioSr on Na2CO3,stable Cs and Sr used as yield tracers, isolated radioCs is measured by gamma spectrometry using lead-shielded Ge detectors, isolated….seawater / Cs134, Cs137, Sr90",90
+"KRIL03"," Pretreatment drying, ashing (650 deg C), radiostrontium isolated is kept for Y-90  ingrowth and Y-90 separated after ingrowth measured by low-level counter Quantulus1220; sediment, biota/ Sr90",90
+"LEPA01","Pretreatment drying and ashing (450 deg C), measured by gamma spectrometry using lead-shielded Ge detectors for biota and fish/Cs137 (detailed instructions as a file)",93
+"LEPA02","Radiocaseium filtered through Cu2Fe(CN)6 impregnated cartridges, measured by gamma spectormetry using lead-shielded Ge detectors for sewawater/Cs137",93
+"LEPA03","Pretreatment drying, measured by gamma spectrometry using lead-shielded Ge detectors for sediments/ Cs137, K40, Th232, Ra226",93
+"LEPA04","Pretreatment ashing. Extraction of Y-90 (with 10% HDEP solution) in n-heptane toluene from dissolved ashed samples. Sr-90 measured as Y-90 by proportional low level counter for biota and fish/Sr-90 (Beta spectrometry)",93
+"LEPA05","Pretreatment concentration of Sr-90 (together with Cs-137) from 20 L of water with HCl, SrCl2, FeCl3, CaCl2K4Fe(CN)6, Na2CO3, adding of stable Sr as carrier.Extraction of Y-90 as in LEPA04 for seawater/Sr-90",93
+"LEPA06","Pretreatment drying, homogenising and ashing (610 deg C)  Extraction of Y-90 (with 10% HDEP solution) in n-heptane toluene from dissolved ashed samples. Sr-90 measured as Y-90 by proportional low level counter Sediments/Sr90",93
+"LEPA07","Pretreatment concerning Cs-137 (together with Sr-90) from 20 L of water with HCl, SrCl2, FeCl3, CaCl2K4Fe(CN)6, Na2CO3. Drying of precipitate. Measured by gamma spectrometry using lead-shielded Ge-detectors for seawater/Cs137",93
+"LEPA08","Pretreatment drying (sediment samples) or vaporization to 500 ml (sea water samples), measured by gamma-spectrometry using HPGe detectors/SEDIMENT and SEAWATER: Cs137",93
+"LEPA09","Pretreatment concentration of Sr-90 from 20 L of water with HCl, SrCl2, Na2CO3, adding of stable Sr as carrier. Extraction of Y-90 (with 10% HDEP solution) in n-heptane toluene from dissolved ashed samples. Sr-90 measured as Y-90 by proportional low level counter/SEAWATER:Sr-90",93
+"LREB01","not defined",92
+"LREB02","not defined",92
+"LRPC01","Preatreatment drying (sediments) or evaporation (water) to 500 ml.  Measuring by gamma spectrometry using HPGe detectors /sediments and seawater/Cs-137",93
+"LRPC02","Pretreatment evaporation to 500 ml. Extraction of Y-90 with 10% HDEHP solution in toluene. Sr-90 measuring by Cherenkov counting, using liquid scintillation counter /seawater/ Sr-90.",93
+"LRPC03","Preatreatment drying, homogenising and ashing (610 deg C). Extraction of Y-90 with 10% HDEHP solution in toluene. Sr-90 measuring by Cherenkov counting, using liquid scintillation counter /sediments/ Sr-90.",0
+"LRPC04","Preatreatment drying and homogenising. Measuring by gamma spectrometry using HPGe detectors /macroalgae and fish/Cs-137",93
+"LRPC05","Pretreatment mineralization with conc. HNO3. Extraction of Y-90 with 10% HDEHP solution in toluene. Sr-90 measuring by Cherenkov counting, using liquid scintillation counter /macroalgae/ Sr-90.",0
+"LVDC01","not defined",92
+"LVDC02","not defined",92
+"LVEA01","not defined",92
+"LVEA04","not defined",92
+"NCRS01","No preparation before the measurement",77
+"NCRS41","Gamma analysis with high purity Germanium detector, sample freeze-dried, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"NCRS42","Gamma analysis with high purity Germanium detector, sample dried, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"NCRS43","Gamma analysis with high purity Germanium detector, sample dried, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"NCRS44","Gamma analysis with high purity Germanium detector, sample dried with hot air, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"RISO01","Sample drying, freeze-drying and ashing (450°C) measured by gamma spectrometry using lead-shielded Germanium detectors - sediment, biota / Mn54, Co57, Co58, Co60, Zn65, Nb95, Ru103, Ru106, Ag110m, Sb125, Cs134, Cs137, Ba140, Ce141, Ce144, Ra226, Th232",26
+"RISO02","Radiocaesium absorbed on AMP (NH4 - MoPO4), Cs-134 used as yield tracer, measured by gamma spectrometry using lead-shielded Ge detectors - seawater / Cs134, Cs137",26
+"RISO03","Radiostrontium isolated (classic nitric acid method) and Y-90 separated after ingrowth and measured by gross beta counting, Sr-85 used as yield tracer, Gross beta counting using low-level GM counters - seawater / Sr90",26
+"RISO04","Pretreatment drying, freeze drying, Tc-99 isolated by chemical procedures and measured by gross beta counting, Tc-99m used as yield tracer, Gross beta counting using low-level GM counters - biota, seawater / Tc99",26
+"RISO05","Pretreatment drying, freeze drying and ashing (450°C), Pu isotopes and Am-241 isolated (anion exchange) and determined by alpha spectrometry, Pu-242 and Am-243 used as yield tracers, Alpha spectrometry using Si detectors (transuranics, polonium) - part mi",26
+"RISO06","Po determined by spontaneous deposition on silver disks followed by alpha spectrometry; Pb determined from Po after time for ingrowth; biota/Po210 AND Pb210",0
+"RISO07","Transuranics determined by mass spectrometry, ICPMS, after chemical separation, seawater",0
+"SAAS01","not defined",6
+"SAAS02","not defined",6
+"SAAS03","not defined",6
+"SAAS04","not defined",6
+"SSSI01","Seawater analysis: concentrate Cs in water sample by use of Cu2Fe(CN)6 filters spiked with Cs-134 as tracer, followed by gammaspectrometric measurement of filters",77
+"SSSI03","Gamma analysis with high purity Germanium detector, sample dried, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSI41","Gamma analysis with high purity Germanium detector, sample freeze-dried, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSI42","Gamma analysis with high purity Germanium detector, sample dreid, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSI43","Gamma analysis with high purity Germanium detector, sample dried, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSI44","Gamma analysis with high purity Germanium detector, sample dried with hot air, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSM41","Gamma analysis with high purity Germanium detector, sample freeze-dried, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSM42","Gamma analysis with high purity Germanium detector, sample dreid, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSM43","Gamma analysis with high purity Germanium detector, sample dried, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSM44","Gamma analysis with high purity Germanium detector, sample dried with hot air, ashed, mixed and analysed in “absolut kalibrerad geometri” according to intercalibration with IAEA",77
+"SSSM45","Tritium analysis of a water sample. The water is shaken with ion exchangers, then the sample is filtrated and scintillation solution is added. The contents of β-radiation from tritium is measured with a liquid scintillation spectrometer.",77
+"SSSM46","Cesium analysis of a water sample. The water is shaken with ion exchangers, then the sample is filtrated and scintillation solution is added.",0
+"STUK01","Gamma-spectrometric analysis (Pretreatment drying and ashing (450 deg C, Biota samples) or freeze drying (sediment samples) or vaporization to 500 ml (sea water samples), measured by gamma spectrometry using lead-shielded HPGe detectors)",34
+"STUK02","Strontium analysis (Radiostrontium isolated (classic nitric acid method) and Y-90 separated after ingrowth and measured by gross beta counting, Stable strontium used as yield tracer, Gross beta counting using low-level GM counters)",34
+"STUK03","Transuranic anal. (Pretreatm. drying, freeze drying and ashing (450 d C), Pu isotopes and Am-241 isolated (anion exchange) & determ. by alpha spectrometry,Pu-242 & Am-243 used as yield tracers,alpha spectromet.using Si detectrs, (transuranics, polonium).",34
+"STUK04","Updated tritium analysis (Sea water samples distilled twice with AgNO3 and tritium measured with liquid scintillation counter)",34
+"STUK05","Modified (-97) from STUK02; Radiostrontium isolated (Sr.Spec-resin) & Y-90 separated after ingrowth & measured by gross beta counting, Stable strontium used as yield tracer, Gross beta counting using low-level GM counters or liquid scintillation counter",34
+"VTIG01","Gammaspectrometric analysis with Germanium detectors (p-type HGeLi's and HPGe's and 1 n-type HPGe), with efficiency 20-48% Energy resolution 1.8-2.3 keV at 1.33 MeV",6
+"VTIG02","Sr-90, a) Y-90 extraction method dried ash and added Y-90 + HCl, Ph adjustment and Y-90 extraction with HDEHP in n-heptane b) Modified version of classic nitric acid method",6
+"VTIG03","Pu238, Pu239241; Ashing and and drying the traces",6
+"VTIG04","Am-241",6
