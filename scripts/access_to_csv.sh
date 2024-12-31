@@ -43,6 +43,11 @@ jq -c '.sources[]' "$CONFIG_FILE" | while read -r source; do
     tables=$(mdb-tables "$ACCESS_FILE")
     for table in $tables; do
         echo "Exporting $table..."
-        mdb-export "$ACCESS_FILE" "$table" > "$OUTPUT_DIR/${table}.csv"
+        if mdb-export "$ACCESS_FILE" "$table" > "$OUTPUT_DIR/${table}.csv" 2>/dev/null; then
+            echo "Successfully exported $table"
+        else
+            echo "Warning: Failed to export table '$table' - skipping" >&2
+            continue
+        fi
     done
 done
