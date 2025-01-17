@@ -1,8 +1,8 @@
 name: Fetch MARIS Data Sources
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
+  #schedule:
+  #  - cron: '0 0 * * *'  # Runs daily at midnight - commented out
   workflow_dispatch:     # Allow manual triggers
 
 jobs:
